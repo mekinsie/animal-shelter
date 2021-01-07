@@ -1,0 +1,10 @@
+.column {
+  width: 300px;
+  float: left;
+}
+
+img {
+  width: 80%;
+  float: left;
+  margin: 10px;
+}
