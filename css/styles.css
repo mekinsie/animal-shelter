@@ -1,10 +1,39 @@
-.column {
-  width: 300px;
-  float: left;
+h1 {
+  color: rgb(42, 82, 42);
+  text-align: center;
 }
-
+.column {
+  border:rgb(42, 82, 42);
+  border-width: 10px;
+  width: 300px;
+  margin-bottom: auto;
+  float:left;
+  box-sizing:border-box;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.box{
+  border:rgb(42, 82, 42);
+  border-width: 10px;
+  margin-bottom: auto;
+  box-sizing:border-box;
+}
 img {
   width: 80%;
   float: left;
   margin: 10px;
+}
+p {
+  font-family: sans-serif;
+}
+.cat p {
+  font-style: italic;
+  color: blue;
+}
+.dog p {
+  font-style: bold;
+  color: red;
 }
